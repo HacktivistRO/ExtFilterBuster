@@ -15,10 +15,10 @@ echo "Bypassing filters for File Upload Vulnerability since 2023"
 bypass_char=( '%20' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':' )
 
 # Change this line with list of extension according to the technology of the target application. If not sure, leave it as is.
-tech_ext=('.action', '.asax', '.ashx', '.asmx', '.asp', '.aspx', '.axd', '.backup', '.bak', '.base.js', '.bat', '.c', '.cfg', '.cfm', '.cgi', '.class', '.com', '.conf', '.config', '.cs', '.css', '.dll', '.do', '.exe', '.faces', '.hta', '.htm', '.html', '.ifaces', '.inc', '.jar', '.java', '.jhtml', '.jpeg', '.jpg', '.js', '.jsa', '.jsf', '.json', '.jsp', '.jspf', '.lock', '.log', '.md', '.mdb', '.nsf', '.old', '.passwd', '.pcap', '.pdf', '.php', '.php2', '.php3', '.php4', '.php5', '.php6', '.php7', '.phps', '.pht', '.phtml', '.pl', '.png', '.properties', '.reg', '.resx', '.seam', '.sh', '.sht', '.shtml', '.sln', '.sql', '.svf', '.swf', '.txt', '.wadl', '.wasm', '.web', '.wsdl', '.xhtml', '.xml', '.xsd', '.yaml', '.yml', '.zip' )
+tech_ext=('.action' '.asax' '.ashx' '.asmx' '.asp' '.aspx' '.axd' '.backup' '.bak' '.base.js' '.bat' '.c' '.cfg' '.cfm' '.cgi' '.class' '.com' '.conf' '.config' '.cs' '.css' '.dll' '.do' '.exe' '.faces' '.hta' '.htm' '.html' '.ifaces' '.inc' '.jar' '.java' '.jhtml' '.jpeg' '.jpg' '.js' '.jsa' '.jsf' '.json' '.jsp' '.jspf' '.lock' '.log' '.md' '.mdb' '.nsf' '.old' '.passwd' '.pcap' '.pdf' '.php' '.php2' '.php3' '.php4' '.php5' '.php6' '.php7' '.phps' '.pht' '.phtml' '.pl' '.png' '.properties' '.reg' '.resx' '.seam' '.sh' '.sht' '.shtml' '.sln' '.sql' '.svf' '.swf' '.txt' '.wadl' '.wasm' '.web' '.wsdl' '.xhtml' '.xml' '.xsd' '.yaml' '.yml' '.zip' )
 
 # Change this line with list of allowed extensions of the target application. If not sure, leave it as is.
-allowed_ext=( '.zip', '.js', '.xls' , '.pdf', '.jpg', '.gif', '.md', '.css', '.html', '.txt', '.svg')
+allowed_ext=( '.zip' '.js' '.xls' , '.pdf' '.jpg' '.gif' '.md' '.css' '.html' '.txt' '.svg')
 
 echo "Generating wordlist for you now."
 for bypass_char in "${bypass_char[@]}"; do
