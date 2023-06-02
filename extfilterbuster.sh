@@ -6,7 +6,6 @@ echo " |  _| \ \/ / __| |_  | | | __/ _ \ '__|  _ \| | | / __| __/ _ \ '__|"
 echo " | |___ >  <| |_|  _| | | | ||  __/ |  | |_) | |_| \__ \ ||  __/ |"
 echo " |_____/_/\_\ __|_|   |_|_|\__\___|_|  |____/ \__,_|___/\__\___|_|"
 echo "                          -By HacktivistRO"
-echo ""
 }
 
 intro
@@ -39,7 +38,7 @@ intro
 echo "Wordlist generated. Getting final finish done."
 cat wordlist.txt | sort -u > file-upload-list.txt
 rm wordlist.txt
-clear
+intro
 echo "ExtFilterBuster has completed the task successfully."
 sleep 2
 echo "File Upload Wordlist saved as file-upload-list.txt"
