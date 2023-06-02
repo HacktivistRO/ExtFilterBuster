@@ -2,7 +2,7 @@
 
 ![](https://komarev.com/ghpvc/?username=HacktivistRO&style=for-the-badge)
 
-![ExtFilterBuster-logo](https://github.com/HacktivistRO/ExtFilterBuster/assets/49992837/a780af8b-6f72-46d6-a967-c131b352a273)
+![ExtFilterBuster-logo](https://github.com/HacktivistRO/ExtFilterBuster/assets/49992837/8fb1334c-983b-40b4-92fe-9434f91dfdb5)
 
 
 # ExtFilterBuster
