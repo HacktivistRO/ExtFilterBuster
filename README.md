@@ -10,6 +10,7 @@ ExtFilterBuster is a BASH script designed to assist in testing file upload vulne
 
 # Usage
 1) Clone the repository using the following command:
+
 `git clone https://github.com/HacktivistRO/ExtFilterBuster`
 
 2) This step is optional but is recommended as it will ensure that wordlist is generated according to extenstions allowed on your target.
@@ -25,7 +26,9 @@ ExtFilterBuster is a BASH script designed to assist in testing file upload vulne
     Save the script with the modifications.
 
 3) Run the script using the following command: `bash extfilterbuster.sh` and wait for a few seconds
-5) The script will generate a wordlist file named file-upload-list.txt containing the possible filenames that can be used to test file upload vulnerability.
+4) The script will generate a wordlist file named file-upload-list.txt containing the possible filenames that can be used to test file upload vulnerability.
+
+### NOTE: It will take around 5-7 minutes for the script to complete the task, provided you do not change anything in the script.
 
 #### The generated wordlist can be used for further testing of file upload vulnerabilities in your target application.
 
